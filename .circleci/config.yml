@@ -8,7 +8,7 @@ jobs:
     executor: lighthouse-check/default
     steps:
       - lighthouse-check/audit:
-          urls: https://www.thebaltimorebanner.com/, http://www.thebaltimorebanner.com/
+          urls: https://www.thebaltimorebanner.com,http://www.thebaltimorebanner.com
 
 workflows:
   test:
